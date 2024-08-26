@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <style>
+    .fundo-pagina{
+      background:black;
+    }
+    .barra-branca{
+      background-color:white;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      height: 100px;
+      width: 100%;
+      text-align:center
+    }
+    .imagens{
+      margin-inline:8px
+    }
+  </style>
+  <body class="fundo-pagina">
+    <div class= "barra-branca"> 
+      <img class="imagens" src="https://fastly.picsum.photos/id/503/96/96.jpg?hmac=cQMJpYr1ZH7dBEloLnjYn67zwcp0x1GRNpjRCbkHFmA">
+      <img class="imagens" src="https://fastly.picsum.photos/id/503/96/96.jpg?hmac=cQMJpYr1ZH7dBEloLnjYn67zwcp0x1GRNpjRCbkHFmA">
+      <img class="imagens" src="https://fastly.picsum.photos/id/503/96/96.jpg?hmac=cQMJpYr1ZH7dBEloLnjYn67zwcp0x1GRNpjRCbkHFmA">
+      <img class="imagens" src="https://fastly.picsum.photos/id/503/96/96.jpg?hmac=cQMJpYr1ZH7dBEloLnjYn67zwcp0x1GRNpjRCbkHFmA">
+      <img class="imagens" src="https://fastly.picsum.photos/id/503/96/96.jpg?hmac=cQMJpYr1ZH7dBEloLnjYn67zwcp0x1GRNpjRCbkHFmA">
+      <img class="imagens" src="https://fastly.picsum.photos/id/503/96/96.jpg?hmac=cQMJpYr1ZH7dBEloLnjYn67zwcp0x1GRNpjRCbkHFmA">
+      <img class="imagens" src="https://fastly.picsum.photos/id/503/96/96.jpg?hmac=cQMJpYr1ZH7dBEloLnjYn67zwcp0x1GRNpjRCbkHFmA">
+      <img class="imagens" src="https://fastly.picsum.photos/id/503/96/96.jpg?hmac=cQMJpYr1ZH7dBEloLnjYn67zwcp0x1GRNpjRCbkHFmA">
+      <img class="imagens" src="https://fastly.picsum.photos/id/503/96/96.jpg?hmac=cQMJpYr1ZH7dBEloLnjYn67zwcp0x1GRNpjRCbkHFmA">
+      <img class="imagens" src="https://fastly.picsum.photos/id/503/96/96.jpg?hmac=cQMJpYr1ZH7dBEloLnjYn67zwcp0x1GRNpjRCbkHFmA">
+      <img class="imagens" src="https://fastly.picsum.photos/id/503/96/96.jpg?hmac=cQMJpYr1ZH7dBEloLnjYn67zwcp0x1GRNpjRCbkHFmA">
+      <img class="imagens" src="https://fastly.picsum.photos/id/503/96/96.jpg?hmac=cQMJpYr1ZH7dBEloLnjYn67zwcp0x1GRNpjRCbkHFmA">
+ 
+  </body>
+</html>
