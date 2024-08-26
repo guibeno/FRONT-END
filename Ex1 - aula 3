@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <style>
+      .classe-altura{
+        height: 328px;
+        width: 512px;
+        display:block;
+      }
+     
+    </style>
+      <div id="lista_imagens">
+        <img class="classe-altura" src="https://fastly.picsum.photos/id/59/256/164.jpg?hmac=xytnsURnOntmGIsrLV2eB5XqCj244AbrW4YJCwk4K70">
+        <img class="classe-altura" src="https://fastly.picsum.photos/id/59/256/164.jpg?hmac=xytnsURnOntmGIsrLV2eB5XqCj244AbrW4YJCwk4K70">
+        <img class="classe-altura" src="https://fastly.picsum.photos/id/59/256/164.jpg?hmac=xytnsURnOntmGIsrLV2eB5XqCj244AbrW4YJCwk4K70">
+        <img class="classe-altura" src="https://fastly.picsum.photos/id/59/256/164.jpg?hmac=xytnsURnOntmGIsrLV2eB5XqCj244AbrW4YJCwk4K70">
+        <img class="classe-altura" src="https://fastly.picsum.photos/id/59/256/164.jpg?hmac=xytnsURnOntmGIsrLV2eB5XqCj244AbrW4YJCwk4K70">
+  </body>
+</html>
