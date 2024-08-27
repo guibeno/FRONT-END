@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .fundo-preto{
+       background-color: black; /* Fundo preto para o body */
+        margin: auto;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Faz o body ocupar toda a altura da janela */
+      }
+      
+      .cor-letra{
+        color:white;
+      }
+     
+       .container {
+        width: 400px; /* Largura da div */
+        background-color: gray; /* Fundo cinza para a div */
+        color: white; /* Texto branco */
+        padding: 20px; /* Adiciona um pouco de espaço interno */
+        box-sizing: border-box; 
+      }
+    
+
+    
+    </style>
+    <body class="fundo-preto">
+      
+    <div class="container">
+      <p class="cor-letra">
+        Em um canto tranquilo do bosque, onde a luz do sol filtrava através das folhas, havia uma pequena clareira onde as flores coloridas dançavam ao ritmo da brisa. Ali, um velho carvalho se erguia majestoso, suas raízes firmes e galhos amplos oferecendo sombra e refúgio. Sentado sob sua copa, um jovem sonhador escrevia em um caderno, suas palavras capturando a essência da paz que o cercava. A natureza parecia suspensa em um estado de serenidade, como se o tempo houvesse parado apenas para permitir que ele encontrasse a beleza simples da vida.
+      </p>
+    </div>
+  </body>
+</html>
