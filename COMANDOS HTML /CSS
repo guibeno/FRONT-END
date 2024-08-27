@@ -1,3 +1,9 @@
 POSIÇÕES:
   height: Altura de um elemento (em relação ao elemento de comparação)
   width: Largura de um elemento (em relação ao elemento de comparação)
+
+COMANDOS:
+  background-color: cor de fundo
+  color: cor do texto
+  text-align center: texto no centro (em relação ao elemento de comparação)
+  justify-content: Alinhar os elementos ao longo do eixo principal 
