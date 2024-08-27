@@ -1,0 +1,3 @@
+POSIÇÕES:
+  height: Altura de um elemento (em relação ao elemento de comparação)
+  width: Largura de um elemento (em relação ao elemento de comparação)
