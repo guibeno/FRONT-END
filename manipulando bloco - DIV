@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .fundo-preto{
+       background-color: black; /* Fundo preto para o body */
+        height:500px; /* Faz o body ocupar toda a altura da janela */
+        width: 500px;
+        margin-top:100px;
+        margin-right:10px;
+        margin-left: 100px;
+    </style>
+  </body>
+    <div class="fundo-preto">
+      
+  </div>
+</html>
