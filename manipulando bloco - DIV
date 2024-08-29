@@ -9,9 +9,16 @@
         margin-top:100px;
         margin-right:10px;
         margin-left: 100px;
+        .cor-letra{
+          color:white;
+          text-align:center;
+        }
     </style>
   </body>
     <div class="fundo-preto">
+      <h1 class="cor-letra">
+        ola mundo
+      </h1>
       
   </div>
 </html>
