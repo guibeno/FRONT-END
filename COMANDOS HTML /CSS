@@ -7,3 +7,4 @@ COMANDOS:
   color: cor do texto
   text-align center: texto no centro (em relação ao elemento de comparação)
   justify-content: Alinhar os elementos ao longo do eixo principal 
+  float: alinha documentos a esquerda ou a direita
