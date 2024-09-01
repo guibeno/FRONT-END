@@ -2,18 +2,22 @@
 <html lang="pt-br">
   <head>
     <style>
-    
+      .info {
+            width: 512px;
+            height: 328px;
+      .lista-imagens {
+            display: flex;
+            flex-direction: column;
     </style>
+  </head>
     <body>
-      <div>
-      
-        <img src="https://tse3.mm.bing.net/th?id=OIP.0_5tC6496C1X51GJQa44MgHaEo&pid=Api&P=0&h=180">
-         <img src="https://tse3.mm.bing.net/th?id=OIP.0_5tC6496C1X51GJQa44MgHaEo&pid=Api&P=0&h=180">
-         <img src="https://tse3.mm.bing.net/th?id=OIP.0_5tC6496C1X51GJQa44MgHaEo&pid=Api&P=0&h=180">
-         <img src="https://tse3.mm.bing.net/th?id=OIP.0_5tC6496C1X51GJQa44MgHaEo&pid=Api&P=0&h=180">
-         <img src="https://tse3.mm.bing.net/th?id=OIP.0_5tC6496C1X51GJQa44MgHaEo&pid=Api&P=0&h=180">
+      <div class="lista-imagens">
+        <img class = "info" src="https://fastly.picsum.photos/id/520/256/164.jpg?hmac=ujJPHbGryAZmNWUXdpXE0rchxvigFu2Q95MBaZveyAo">
+         <img class = "info" src="https://fastly.picsum.photos/id/520/256/164.jpg?hmac=ujJPHbGryAZmNWUXdpXE0rchxvigFu2Q95MBaZveyAo">
+         <img class = "info" src="https://fastly.picsum.photos/id/520/256/164.jpg?hmac=ujJPHbGryAZmNWUXdpXE0rchxvigFu2Q95MBaZveyAo">
+         <img class = "info" src="https://fastly.picsum.photos/id/520/256/164.jpg?hmac=ujJPHbGryAZmNWUXdpXE0rchxvigFu2Q95MBaZveyAo">
+         <img class = "info" src="https://fastly.picsum.photos/id/520/256/164.jpg?hmac=ujJPHbGryAZmNWUXdpXE0rchxvigFu2Q95MBaZveyAo">
       </div>
    
     </body>
-  </head>
 </html>
