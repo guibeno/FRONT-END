@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <style>
+      .fundo{
+        background-color:red;
+      }
+      .texto{
+        background-color:blue;
+        color: green;
+      }
+
+
+    </style>
+    <body class="fundo">
+       <h1 class="texto">
+         folha estilo externa
+      </h1>
+    </body>
+  </head>
+</html>
