@@ -14,10 +14,12 @@
         position:fixed;   
         justify-content: center;
         display:flex;
+        
       }
       .imagens{
         width: 96px;
         heigth:96px;
+        margin-inline:8px;
       }
   
     </style>
