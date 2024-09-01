@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <style>
+      .paragrafo-azul{
+        background-color:blue;
+        margin:12px;
+      }
+      .paragrafo-verde{
+        background-color:green;
+        margin:105px;
+      }
+    
+    
+    </style>
+    <body>
+       <p class="paragrafo-azul">
+         O sol se põe no horizonte, pintando o céu com toneladas de laranja e rosa. Cada dia que termina nos lembra da beleza efêmera da vida e da importância de apreciarmos os momentos simples. Às vezes, são nos pequenos detalhes que encontramos a verdadeira paz. 
+      </p>
+      <p class="paragrafo-verde">
+        O sol se põe no horizonte, pintando o céu com toneladas de laranja e rosa. Cada dia que termina nos lembra da beleza efêmera da vida e da importância de apreciarmos os momentos simples. Às vezes, são nos pequenos detalhes que encontramos a verdadeira paz. 
+      </p>
+      <p class="paragrafo-azul">
+        O sol se põe no horizonte, pintando o céu com toneladas de laranja e rosa. Cada dia que termina nos lembra da beleza efêmera da vida e da importância de apreciarmos os momentos simples. Às vezes, são nos pequenos detalhes que encontramos a verdadeira paz. 
+      </p>
+      <p class="paragrafo-verde">
+        O sol se põe no horizonte, pintando o céu com toneladas de laranja e rosa. Cada dia que termina nos lembra da beleza efêmera da vida e da importância de apreciarmos os momentos simples. Às vezes, são nos pequenos detalhes que encontramos a verdadeira paz. 
+      </p>
+      <p class="paragrafo-azul">
+        O sol se põe no horizonte, pintando o céu com toneladas de laranja e rosa. Cada dia que termina nos lembra da beleza efêmera da vida e da importância de apreciarmos os momentos simples. Às vezes, são nos pequenos detalhes que encontramos a verdadeira paz. 
+      </p>
+    </body>
+  </head>
+</html>
