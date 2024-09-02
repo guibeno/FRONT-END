@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+    <style>
+      .barra-azul-claro{
+        background-color:LightSteelBlue;
+        left: 0;
+        height:100vh;
+        width:500px;
+        position:fixed; 
+        bottom:0;
+        border-right:20px solid black;
+      }
+      .cor-body{
+        background-color: Seashell;
+      }
+      .foto-redonda{
+        border-radius: 50%;
+        margin-top:50px;
+        margin-left:75px;
+      }
+      .titulo{
+        text-align:center;
+        font-family: "New Amsterdam", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        margin-top:30px;
+      }
+      .barra-pequena{
+        background-color:black;
+        height:20px;
+        margin-top:35px;
+      }
+      .conteudo{
+        background-color:red;
+        top:100;
+        margin-right: 0;
+        height:100vh;
+        width:500px;
+      }
+      .contato{
+        font-family: "New Amsterdam", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        margin-top:30px;
+        margin-left:35px
+      }
+      .barra-azul{
+        background-color:DarkBlue;
+        top: 0;
+        margin-left:510px;
+        width:100%;
+        padding:135px;
+        position:fixed;   
+        
+      }
+
+      .texto-caixa-azul{
+        color:white;
+        margin-left:50px;
+        
+      }
+      .titulo-caixa-azul{
+        color:white;
+        margin-left:550px;
+      }
+      .texto-central{
+        color:black;
+        margin-top:500px;
+        margin-left:560px;
+      }
+      .posicao{
+        position:absolute;
+        bottom: 0;
+        margin-left: 2000px; 
+      }
+    
+    </style>
+    
+    
+    
+  </head>
+    <body class="cor-body">
+      <div class="barra-azul-claro" class="barra-pequena">
+        <img class="foto-redonda" src="https://cdn.glitch.global/50b27c10-0c5e-4083-a866-aa5f6321cdee/WhatsApp%20Image%202024-09-02%20at%2008.27.49.jpeg?v=1725276947000">
+        <div class="barra-pequena">
+          
+        </div>
+          <h1 class="titulo">
+            <big>Infomarções</big>
+          </h1>
+        <h1>
+          Dados pessoais:
+        </h1>
+        <h2 class="contato">
+          Endereço:<li>Porto Alegre, RS</li>
+        </h2>
+          <h2 class="contato">
+            <big></big>contato:<li>(51) 98603-2642</li><li>(51) 3213-5330</li>  
+        </h2>
+        <h1>
+          Escolaridade
+        </h1>
+        <h2 class="contato">
+          <li>Ensino médio completo</li><li>Cursando ciências da computação</li>
+        </h2>
+        <h1>
+          Redes sociais
+        </h1>
+        <h2 class="contato">
+          <li> <a href="/links-redes-sociais">
+            links redes sociais</a>
+            </li>  
+        </h2>
+      </div>
+      <div class="barra-azul">
+        <h1 class="titulo-caixa-azul">
+          <big>Guilherme Dalmoro</big>
+        </h1>
+        <h2 class="texto-caixa-azul">
+          <pre>   Ao longo da minha carreira, desenvolvi habilidades em [Principais Competências], que me permitiram [Descrever<br> Realizações Relevantes, como aumentar a eficiência, liderar equipes, ou implementar soluções inovadoras].<br> Meu objetivo é [Breve Descrição do Objetivo Profissional ou do Tipo de Oportunidade que Está Buscando].</pre>
+        </h2>
+      </div>
+       <h2 class="texto-central">
+        <pre>   Um currículo bem estruturado é essencial para causar uma boa impressão em potenciais potenciais. Ele deve destacar suas habilidades<br> e experiências de maneira clara e concisa. Comece com um resumo profissional que captura sua essência e habilidades principais, seguido<br> por uma lista detalhada de experiências de trabalho e formações acadêmicas. Inclui habilidades específicas relacionadas à vaga para quem<br> está se candidatando. Um currículo organizado e personalizado demonstra profissionalismo e aumenta suas chances de ser notado<br></br><br></br>  Habilidades transferíveis são aquelas que podem ser aplicadas em diferentes contextos e funções. Por exemplo, competências em comunicação,<br> resolução de problemas e gerenciamento de tempo são valiosas em qualquer área. Ao destacar essas habilidades em seu currículo, você mostra<br> sua capacidade de adaptação e características. Essas habilidades são especialmente importantes para quem está mudando de carreira ou<br> buscando novas oportunidades, pois evidenciam sua capacidade de agregar valor em diferentes cenários.<br></br><br></br>  Ao incluir habilidades técnicas em seu currículo, é importante ser específico e demonstrar como você aplicou nas experiências anteriores.<br> Em vez de simplesmente listar ferramentas e softwares, descreva projetos ou tarefas em que você usou essas habilidades para alcançar<br> resultados concretos. Por exemplo, em vez de apenas mencionar "conhecimento em Excel", indique como você usou o Excel para analisar dados<br> e criar relatórios que melhoraram a eficiência da equipe. Isso ajuda os recrutadores a visualizar como suas habilidades técnicas po
+       </h2>
+      <h1 class="posicao">
+        <a href "https://www.instagram.com/">link instagram</a>
+      </h1>
+       
+      
+
+     
+    
+   
+    </body>
+</html>
