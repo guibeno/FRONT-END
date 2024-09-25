@@ -1,0 +1,182 @@
+
+
+.class-body {
+    max-height: 100%;
+    max-width:100%;
+    background-color: #FAF0E6;
+}
+
+
+.barra-branca{
+  background-color:#830030;
+  top: 0;
+  left: 0;
+  width:100%;
+  padding:65px;
+  position:fixed;   
+  display:flex;
+  border-bottom: 20px black;
+  justify-content: center;
+  align-items: center;
+  gap: 470px; 
+}
+
+
+.tamanho-imagem{
+  top:15px;
+  height:230px;
+  width:230px;
+  position:fixed;
+  justify-content: center;
+  display:flex;
+  border-radius:35%;
+  background-color:#FAF0E6;
+  transform: translateX(-35%)
+}
+
+
+@keyframes slidein {
+  from {
+    left: 0%;
+  }
+
+  to {
+    left: 40%
+  }
+}
+
+.imagem-moto{
+  position:absolute;
+  margin-top:90%;
+  margin-left:0%;
+  height:550px;
+  width:550px;
+  animation-duration: 10s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+  animation-direction: linear;
+}
+
+.titulo-principal{
+  text-align: center; 
+  margin-top: 65px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  position:relative;
+  color:#cb3d17;
+  font-family: "Anton", sans-serif;
+  font-style: normal;
+  font-size: 70;
+}
+
+.subtitulo{
+  text-align: center;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  position:relative;
+  color:#cb3d17;
+  font-family: "Anton", sans-serif;
+  font-style: normal;
+  font-size: 50;
+}
+
+.nome{
+  text-align:center;
+  color:#cb3d17;
+  margin-top: 250px;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  position:relative;
+  font-family: "Anton", sans-serif;
+  font-style: normal;
+  font-size: 120;
+}
+
+
+.bloco-imagens {
+  padding: 30px; /* Espaçamento interno */
+  background-color: #830030; /* Cor de fundo */
+  display: flex; /* Usar flexbox para layout */
+  justify-content: center; /* Alinha horizontalmente */
+  max-width: 100%; /* Ocupa 100% da largura do contêiner pai */
+  flex-wrap: wrap; /* Permite quebra de linha para os itens */
+}
+
+.imagem {
+  height: 400px; /* Altura fixa */
+  width: 400px; /* Largura fixa ;/
+  margin: 20px; /* Espaçamento de 20px ao redor de cada imagem */
+}
+
+/* Media Query para telas pequenas (até 400px) */
+@media (max-width: 400px) {
+  .bloco-imagens {
+    flex-direction: column; /* Muda para coluna em telas menores */
+    align-items: center; /* Centraliza as imagens na coluna */
+  }
+
+
+  .container-cartao{
+    position:relative
+    
+  }
+.imagem-carao {
+    position: absolute; /* Posiciona a imagem */
+    right: 0; /* Alinha à direita */
+    top:100%;
+    transform: translateY(-50%); /* Ajusta para centralizar verticalmente */
+    width: 100px; /* Ajuste conforme necessário */
+    height: auto; /* Mantém a proporção */
+}
+
+.bloco-verdura{
+  display: inline-block;
+  vertical-align: middle;
+  flex-direction:row
+}
+
+.imagem-verdura{
+  height:900px; 
+}
+
+.button {
+  background-color: yellow;
+  color: #ffeccc;
+  padding: 0.8em 1.8em;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 4.0em;
+  text-align: center;
+}
+
+
+.link-1{
+  transform: translateX(30px); 
+  background-color: #FAF0E6;
+  color: #cb3d17;
+  padding: 0.8em 1.8em;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+  
+
+}
+
+.link-2{
+  background-color: #FAF0E6;
+  color: #cb3d17;
+  padding: 0.8em 1.8em;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5em;
+}
