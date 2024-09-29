@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  </head>
+  <body class="class-body">
+    
+   <h1 class="nome">
+      Refugio's
+    </h1>
+    <div class="bloco-imagens">
+      <img class="imagem" src="https://cdn.glitch.global/8bf7c250-599c-4422-a6cb-b721d8dab3e2/DALL%C2%B7E%202024-09-24%2009.51.30%20-%20An%20elegant%20restaurant%20dish%20presentation%2C%20featuring%20a%20gourmet%20main%20course.%20The%20plate%20is%20artistically%20arranged%20with%20a%20perfectly%20seared%20piece%20of%20meat%2C%20ga.webp?v=1727182301968">
+      <img class="imagem" src="https://cdn.glitch.global/8bf7c250-599c-4422-a6cb-b721d8dab3e2/DALL%C2%B7E%202024-09-24%2009.54.48%20-%20A%20gourmet%20restaurant%20dish%20featuring%20a%20beautifully%20plated%20seafood%20entre%CC%81e.%20The%20plate%20has%20a%20delicately%20arranged%20fillet%20of%20fish%2C%20surrounded%20by%20vibrant%20gre.webp?v=1727182528800">
+      <img class="imagem" src="https://cdn.glitch.global/8bf7c250-599c-4422-a6cb-b721d8dab3e2/DALL%C2%B7E%202024-09-24%2009.57.50%20-%20A%20luxurious%20gourmet%20dish%20featuring%20a%20perfectly%20cooked%20filet%20mignon%2C%20elegantly%20sliced%20and%20arranged%20with%20roasted%20vegetables%20like%20heirloom%20carrots%20and%20br.webp?v=1727182724164">
+      <img class="imagem" src="https://cdn.glitch.global/8bf7c250-599c-4422-a6cb-b721d8dab3e2/DALL%C2%B7E%202024-09-24%2009.57.39%20-%20A%20beautifully%20plated%20gourmet%20dish%20featuring%20seared%20scallops%20placed%20on%20a%20bed%20of%20creamy%20risotto%2C%20garnished%20with%20microgreens%20and%20edible%20flowers.%20The%20dish.webp?v=1727182728412">
+    </div>
+    
+    <h1 class="titulo-principal">
+      A experiência do restaurante, sem sair do sofá.
+    </h1>
+    <h2 class="subtitulo">
+      Onde o sabor encontra a sofisticação
+    </h2>
+    
+      <img class="imagem-moto" src="https://cdn.glitch.global/8bf7c250-599c-4422-a6cb-b721d8dab3e2/a41621f7737f57f1cae24a26d96c2c20-removebg-preview.png?v=1727099656811">
+    
+    <div class="container-cartao">
+      <img class="imagem-cartao" src="https://cdn.glitch.global/8bf7c250-599c-4422-a6cb-b721d8dab3e2/images-removebg-preview.png?v=1727183069356">
+    </div>
+    
+    
+    <div class="barra-branca">
+       <img class="tamanho-imagem" src="https://cdn.glitch.global/8bf7c250-599c-4422-a6cb-b721d8dab3e2/WhatsApp_Image_2024-09-02_at_20.23.16-fotor-202409249415-removebg-preview.png?v=1727179640519">
+    </div>
+    
+    <div class="bloco-verdura">
+      <img class="imagem-verdura" src="https://cdn.glitch.global/8bf7c250-599c-4422-a6cb-b721d8dab3e2/image%20(1).png?v=1727265652363">
+      <button type="submit" class="button">Peça agora!</button>
+    </div>
+ 
+  </body>
+</html>
