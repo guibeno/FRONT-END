@@ -1,0 +1,190 @@
+.barra-stop {
+  display: flex;
+  align-items: center;
+}
+
+.titulo {
+  font-size: 48px;
+  text-align: center;
+  background-color: #22138b;
+  border: 16px solid silver;
+  border-radius: 90px;
+  flex: 1;
+  padding: 22px;
+}
+
+.titulo.left {
+  padding-right: 180px;
+  margin-right: -270px;
+}
+
+.titulo.right {
+  padding-left: 180px;
+  margin-left: -270px;
+}
+
+.body-class {
+  background-color: #4f41be;
+}
+.tamanho-imagem {
+  height: 600px;
+  width: 600px;
+  z-index: 1;
+}
+.form-title {
+  font-size: 1.8em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.4em;
+  color: white;
+}
+
+.button {
+  background-color: #21f9b5;
+  color: black;
+  padding: 0.8em 1.8em;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.button:hover {
+  background-color: red;
+}
+.button::after {
+  content: " (STOP)";
+  display: none;
+}
+
+.text-field {
+  border: 2px solid #302b27;
+  padding: calc(0.8em - 2px);
+  font-size: 0.8em;
+  border-radius: 4px;
+}
+
+.text-field:focus {
+  border-color: #870058;
+}
+
+.text-field::placeholder {
+  color: #302b27b0;
+}
+
+.form-contato {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 16px;
+  border-radius: 8px;
+  max-width: 800px;
+  margin-block: 16px;
+  margin-inline: auto;
+  background-color: #22138b;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.6);
+  box-sizing: border-box;
+  margin-top: 700px;
+  margin-left: 35%;
+}
+
+@media (min-width: 600px) {
+  .form-contato {
+    min-width: 600px;
+  }
+}
+
+.full-name-container {
+  display: flex;
+  gap: 4px;
+}
+
+@media (max-width: 600px) {
+  .full-name-container {
+    flex-direction: column;
+  }
+}
+
+.name-field {
+  flex: 1;
+}
+
+.surname-field {
+  flex: 2;
+}
+
+.gender-title {
+  font-size: 1.4em;
+  margin-bottom: 0.2em;
+}
+
+.gender-container {
+  margin-block: 0.8em;
+}
+
+#vender-alma {
+  margin-block: 0.8em;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="body-class">
+    <div class="barra-stop">
+      <h1 class="titulo left">"Stop: o jogo onde lembrar"</h1>
+      <img
+        class="tamanho-imagem"
+        src="um-sinal-de-parada-vermelho-que-esta-em-uma-parede-branca_1292944-15259-removebg-preview (1).png"
+      />
+      <h1 class="titulo right">nomes estranhos vira estratégia."</h1>
+    </div>
+    <form
+      class="form-contato"
+      method="post"
+      action="https://getform.io/f/agdyrowb"
+    >
+      <h1 class="form-title">Faça seu cadastro para jogar</h1>
+      <fieldset class="full-name-container">
+        <input
+          class="text-field name-field"
+          type="text"
+          placeholder="Digite o seu nome"
+          name="nome"
+          required
+          minlength="2"
+          maxlength="16"
+        />
+        <input
+          class="text-field surname-field"
+          type="text"
+          placeholder="Digite o seu sobrenome"
+          name="sobrenome"
+          minlength="2"
+          maxlength="32"
+          required
+        />
+      </fieldset>
+
+      <div>
+        <input
+          class="checkbox"
+          type="checkbox"
+          id="vender-alma"
+          checked
+          name="vender-alma"
+        />
+        <label for="vender-alma">Eu li e aceito os termos de contrato</label>
+      </div>
+      <button type="submit" class="button">Enviar</button>
+    </form>
+  </body>
+</html>
